@@ -1,20 +1,19 @@
-import Header from "./components/Header";
-import Button from "./components/Button"
+// import Header from "./components/Header";
+// import Button from "./components/Button"
 // import {Button1,Button2,Button3} from "./components/Button";
-import { Image } from "./components/image";
-import NavBar from "./components/NavBar";
+// import { Image } from "./components/image";
+// import NavBar from "./components/NavBar";
+import Practice from "./components/Practice";
+import TaskManager from "./components/TaskManager";
+
+// import flower from "../assets/flower.jpg"
 
 function App(){
     return (
     <div>
-        <NavBar/>
-        <Header/>
-        <Button label="Add to Cart"/>
-        <Button label="Register"/>
-        <Button label="Login"/>
-        <Button label="Read more...ar"/>
-        
-        <Image/>
+        <TaskManager/>
+      
+        {/* <Practice/> */}
         
 
     </div>
